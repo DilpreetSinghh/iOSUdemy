@@ -32,6 +32,7 @@ class ViewController: UIViewController {
                     print("\(timeLeft) seconds left")
                     timeLeft-=1
                     progressBar.progress = percentageProgress
+                sleep(1)
                 }
                 titleLabel.text = "Your Eggs are ready!"
                 
